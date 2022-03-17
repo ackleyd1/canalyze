@@ -11,4 +11,4 @@ $(BIN_DIR)/canalyze: $(OBJS)
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c
 	$(CC) $(CFLAGS) -o $@ -c $^
 	
-.PHONY : clean test debug lint
+.PHONY : clean test debug lint install
